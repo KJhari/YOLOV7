@@ -1,3 +1,6 @@
+python trainHPC.py --workers 2 --device 0 --batch-size 8 --data data/coco.yaml --img 64 64 --cfg cfg/training/yolov7.yaml --weights '' --name yolov7 --hyp data/hyp.scratch.p5.yaml --epochs 2
+
+
 # My fork of the official YOLOv7
 * Added YOLOv5 models and perform comparison
 * Perform WaymoCOCO training
